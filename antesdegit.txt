@@ -1,0 +1,22 @@
+- o commit ficou com o projto da agenda. Resolver isso
+(git reset --hard HEAD~1???)
+
+Se você copia uma pasta que já é um repositório Git, a cópia também será um repositório Git independente, porque a cópia inclui a pasta oculta .git (onde ficam todos os dados e histórico do Git).
+
+⚙️ O que isso significa:
+A cópia tem o mesmo histórico, os mesmos commits e o mesmo remote (como o GitHub, por exemplo).
+
+Mas ela é um repositório separado: alterações feitas na cópia não afetam o original, e vice-versa — a menos que você use comandos como push ou pull para o mesmo repositório remoto.
+
+💡 Se você quer uma cópia sem o vínculo com o Git:
+Apague a pasta .git da cópia:
+
+bash
+Copiar
+Editar
+rm -rf .git
+(ou no Windows, exclua a pasta .git manualmente).
+
+Assim, a pasta copiada deixa de ser um repositório Git.
+
+-- melhor pagar todos e reiniciar
