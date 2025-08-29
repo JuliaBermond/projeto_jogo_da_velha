@@ -1,7 +1,7 @@
 
 ## Descrição
 
-Projeto de Jogo da Velha desenvolvido em React. O jogo possui um tabuleiro 3x3, alternância de jogadores (X e O), cálculo automático do vencedor, histórico de jogadas e botão de reinício.  
+Projeto de Jogo da Velha desenvolvido em React. O jogo possui um tabuleiro 3x3, alternância de jogadores (X e O), cálculo automático do vencedor, histórico de jogadas e botão de reinício.  Projeto desenvolvido como parte de um curso educacional disponibilizado pela [UDEMY].
 
 
 ## Tecnologias Utilizadas
@@ -20,4 +20,5 @@ Projeto de Jogo da Velha desenvolvido em React. O jogo possui um tabuleiro 3x3, 
 - Histórico de jogadas com possibilidade de visualização das posições anteriores
 - Reinício do jogo com botão “Reset”
 - Evita jogadas em quadrantes já preenchidos
+
 - Layout centralizado e adaptável a diferentes tamanhos de tela
